@@ -1,0 +1,282 @@
+{
+ "n": 100000,
+ "span": [
+  "2025-01-01 00:00:00",
+  "2025-03-10 10:39:00"
+ ],
+ "eff_share": {
+  "Low": 0.7782,
+  "Medium": 0.1919,
+  "High": 0.0299
+ },
+ "lat_sens": {
+  "eff_slope": -5.618992183153143e-05,
+  "eff_p": 0.6143974099742768,
+  "speed_slope": -0.00967067846763319,
+  "speed_p": 0.7399442711524131,
+  "eff_per_10ms": -0.0005618992183153143,
+  "speed_per_10ms": -0.0967067846763319
+ },
+ "pl_ratio": 0.009061578705697232,
+ "breakpoint_lat": [
+  44.5009,
+  0.0036276754066708883
+ ],
+ "breakpoint_pl": [
+  4.748999999999999,
+  0.007177478291937961
+ ],
+ "spearman": {
+  "Network_Latency_ms": {
+   "Efficiency_Score": [
+    -0.001,
+    0.7499495303674446
+   ],
+   "Production_Speed_units_per_hr": [
+    -0.0011,
+    0.7354779637645121
+   ],
+   "Error_Rate_%": [
+    0.0001,
+    0.9768233310851433
+   ],
+   "Quality_Control_Defect_Rate_%": [
+    -0.0044,
+    0.1668126705793904
+   ]
+  },
+  "Packet_Loss_%": {
+   "Efficiency_Score": [
+    -0.0001,
+    0.9751234677223802
+   ],
+   "Production_Speed_units_per_hr": [
+    -0.0071,
+    0.024620771695707408
+   ],
+   "Error_Rate_%": [
+    -0.0024,
+    0.4473860952382237
+   ],
+   "Quality_Control_Defect_Rate_%": [
+    -0.0049,
+    0.1196898161823041
+   ]
+  },
+  "NSI": {
+   "Efficiency_Score": [
+    0.0008,
+    0.7960190350117289
+   ],
+   "Production_Speed_units_per_hr": [
+    0.0062,
+    0.049056990553178206
+   ],
+   "Error_Rate_%": [
+    0.0019,
+    0.5551513645535071
+   ],
+   "Quality_Control_Defect_Rate_%": [
+    0.006,
+    0.05580822203713118
+   ]
+  }
+ },
+ "chi_nq": {
+  "chi2": 1.097956419773657,
+  "p": 0.8945963072949148,
+  "dof": 4,
+  "cramers_v": 0.002343028403342197
+ },
+ "chi_lat": {
+  "chi2": 5.62069659949745,
+  "p": 0.6896342686606136,
+  "dof": 8,
+  "cramers_v": 0.00530127182829623
+ },
+ "chi_pl": {
+  "chi2": 6.61303365859862,
+  "p": 0.5788989826023072,
+  "dof": 8,
+  "cramers_v": 0.005750232020796474
+ },
+ "chi_mode": {
+  "chi2": 3.5847755909298806,
+  "p": 0.4651056360071404,
+  "dof": 4,
+  "cramers_v": 0.00423366011326481
+ },
+ "chi_stab": {
+  "chi2": 6.194651367069458,
+  "p": 0.04516983945620835,
+  "dof": 2,
+  "cramers_v": 0.007870610755887663
+ },
+ "kw_speed_lat": [
+  2.0341695130054425,
+  0.7294740548295172
+ ],
+ "kw_err_pl": [
+  2.228028893054444,
+  0.6939011766573
+ ],
+ "kw_def_pl": [
+  10.099920572590197,
+  0.03877775278912571
+ ],
+ "eff_by_nq": {
+  "Low": {
+   "High": 0.0303,
+   "Low": 0.7788,
+   "Medium": 0.1908
+  },
+  "Medium": {
+   "High": 0.0292,
+   "Low": 0.778,
+   "Medium": 0.1928
+  },
+  "High": {
+   "High": 0.03,
+   "Low": 0.7779,
+   "Medium": 0.1921
+  }
+ },
+ "speed_by_lat": {
+  "0-10": 275.19,
+  "10-20": 276.7,
+  "20-30": 275.61,
+  "30-40": 276.49,
+  "40-50": 275.51
+ },
+ "err_by_pl": {
+  "0-1": {
+   "Error_Rate_%": 7.513,
+   "Quality_Control_Defect_Rate_%": 5.045
+  },
+  "1-2": {
+   "Error_Rate_%": 7.501,
+   "Quality_Control_Defect_Rate_%": 5.023
+  },
+  "2-3": {
+   "Error_Rate_%": 7.538,
+   "Quality_Control_Defect_Rate_%": 4.991
+  },
+  "3-4": {
+   "Error_Rate_%": 7.48,
+   "Quality_Control_Defect_Rate_%": 4.962
+  },
+  "4-5": {
+   "Error_Rate_%": 7.488,
+   "Quality_Control_Defect_Rate_%": 5.022
+  }
+ },
+ "eff_by_mode": {
+  "Active": {
+   "High": 0.0303,
+   "Low": 0.777,
+   "Medium": 0.1927
+  },
+  "Idle": {
+   "High": 0.0284,
+   "Low": 0.7825,
+   "Medium": 0.1891
+  },
+  "Maintenance": {
+   "High": 0.0295,
+   "Low": 0.7782,
+   "Medium": 0.1922
+  }
+ },
+ "eff_by_stab": {
+  "Stable": {
+   "High": 0.0296,
+   "Low": 0.7801,
+   "Medium": 0.1903
+  },
+  "Unstable": {
+   "High": 0.0307,
+   "Low": 0.7726,
+   "Medium": 0.1967
+  }
+ },
+ "comm": {
+  "Delayed (>10 ms)": {
+   "Production_Speed_units_per_hr": 276.078,
+   "Error_Rate_%": 7.505
+  },
+  "Real-time (<=10 ms)": {
+   "Production_Speed_units_per_hr": 275.19,
+   "Error_Rate_%": 7.498
+  }
+ },
+ "net_means": {
+  "Network_Latency_ms": {
+   "count": 100000.0,
+   "mean": 25.556,
+   "std": 14.121,
+   "min": 1.0,
+   "25%": 13.355,
+   "50%": 25.536,
+   "75%": 37.796,
+   "max": 50.0
+  },
+  "Packet_Loss_%": {
+   "count": 100000.0,
+   "mean": 2.493,
+   "std": 1.443,
+   "min": 0.0,
+   "25%": 1.245,
+   "50%": 2.488,
+   "75%": 3.741,
+   "max": 5.0
+  },
+  "NSI": {
+   "count": 100000.0,
+   "mean": 49.51,
+   "std": 20.122,
+   "min": 0.145,
+   "25%": 35.147,
+   "50%": 49.505,
+   "75%": 63.881,
+   "max": 98.946
+  }
+ },
+ "bal_acc": {
+  "network_only": 0.33279708137592445,
+  "mechanical_only": 0.3291744032470542,
+  "network+mechanical": 0.33190978461977405,
+  "outputs(speed,error,defect)": 0.9995139024102131,
+  "all": 0.9991279767457207
+ },
+ "perm_imp": {
+  "Error_Rate_%": 0.589,
+  "Production_Speed_units_per_hr": 0.419,
+  "Network_Latency_ms": 0.0,
+  "Packet_Loss_%": 0.0,
+  "Temperature_C": 0.0,
+  "Vibration_Hz": 0.0,
+  "Power_Consumption_kW": 0.0,
+  "Predictive_Maintenance_Score": 0.0,
+  "Quality_Control_Defect_Rate_%": 0.0
+ },
+ "eff_rule": {
+  "High": {
+   "Error_Rate_%_min": 0.0,
+   "Error_Rate_%_max": 2.0,
+   "Production_Speed_units_per_hr_min": 400.12,
+   "Production_Speed_units_per_hr_max": 499.98
+  },
+  "Low": {
+   "Error_Rate_%_min": 0.0,
+   "Error_Rate_%_max": 15.0,
+   "Production_Speed_units_per_hr_min": 50.0,
+   "Production_Speed_units_per_hr_max": 500.0
+  },
+  "Medium": {
+   "Error_Rate_%_min": 0.0,
+   "Error_Rate_%_max": 5.0,
+   "Production_Speed_units_per_hr_min": 200.01,
+   "Production_Speed_units_per_hr_max": 499.98
+  }
+ }
+}
